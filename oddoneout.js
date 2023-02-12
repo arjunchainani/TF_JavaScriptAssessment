@@ -1,5 +1,11 @@
 function oddOneOut(arrOfInts){
-    // Your code here!
+    for (num of arrOfInts) {
+        if (num % 2 == 1) {
+            return num;
+        }
+    }
+
+    return -1;
 }
 
 
